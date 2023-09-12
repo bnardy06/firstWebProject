@@ -1,6 +1,24 @@
+
+.jumbotron {
+    background-color: rgb(9, 91, 198);
+    ;
+}
+  
+  /* Navbar */
 .navbar{
     background-color: rgb(9, 91, 198);
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
 }
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Monsterrat-Light";
+}
+
+/*Title */
 
 .title-logo{
         background-color: yellow;
