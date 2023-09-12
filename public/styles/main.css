@@ -1,8 +1,15 @@
-.title-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    background-color: yellow;
-    
+.navbar{
+    background-color: rgb(9, 91, 198);
 }
+
+.title-logo{
+        background-color: yellow;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+
+
