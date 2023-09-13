@@ -17,6 +17,21 @@
     font-size: 1.2rem;
     font-family: "Monsterrat-Light";
 }
+/* Quotes*/
+
+.quotes-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.quotes-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
 
 /*Title */
 
@@ -27,6 +42,7 @@
         margin-right: auto;
         width: 50%;
     }
+
 
 
 
