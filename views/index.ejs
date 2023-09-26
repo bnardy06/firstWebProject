@@ -29,9 +29,10 @@
 </section>
 
 <!-- carousel -->
-<section class="colored-section" id="onePieceCarousel">.
+<section class="colored-section" style="background: url('images/onePieceBackground.webp');"  id="onePieceCarousel">.
 
-  <div id="one-carousel" class="carousel slide" data-bs-ride="carousel" > <!--toggle-->
+  <div id="one-carousel" class="carousel slide" data-bs-ride="false" > <!--toggle-->
+    
     <div class="carousel-inner">
       <div class="carousel-item active container-fluid">
         <img class="quotes-image" class="d-block w-100" src="images/luffyandshanks.png" alt="luffy">
@@ -45,27 +46,14 @@
       </div>
     </div>
 
-    <div class="carousel-item container-fluid">
-      <img class="quotes-image" class="d-block w-100" src="images/usopp2.jpeg" alt="usopp">
-      <h2 class="quotes-text">"I am a brave warrior of the sea. Captain Usopp!!"</h2>
-      <em>-Usopp</em>
-    </div>
-    
-  
-
-  <div class="carousel-item container-fluid">
-    <img class="quotes-image" class="d-block w-100" src="images/nami.webp" alt="nami">
-    <h2 class="quotes-text">"Life is like a pencil that surley run out, but will leave the beautiful writing of life."</h2>
-    <em>-Nami</em>
-  </div>
-
-  <div class="carousel-item container-fluid">
-    <img class="quotes-image" class="d-block w-100" src="images/sanji.webp" alt="sanji">
-    <h2 class="quotes-text">"Cooking is a gift from the gods. Spices are a gift from the devil. Looks like it was little too spicy for you."</h2>
-    <em>-Sanji</em>
-  </div>
-    
-    
+    <button class="carousel-control-prev" type="button" data-bs-target="#one-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#one-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
 </section>

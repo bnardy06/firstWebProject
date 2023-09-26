@@ -24,10 +24,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
     height: 50% !important;
+    margin-top: 3rem;
   
 }
+
+
+
+
 
 .quotes-text {
     font-size: 1rem;
@@ -35,8 +39,13 @@
     text-align: center;
 }
 
+h2 {
+    color: white;
+}
+
 em {
     margin-left: 33rem;
+    color: white;
 }
 
 .carousel-item {
@@ -44,10 +53,12 @@ em {
     overflow: hidden;
   }
 
+ 
+
 
 /*Title */
 
-.title-logo{
+.title-logo {
         background-color: yellow;
         display: block;
         margin-left: auto;
@@ -56,6 +67,16 @@ em {
     }
 
 
+    @media (max-width: 1028px) {
 
+        #title {
+            text-align: center;
+        }
+    
+        .title-image {
+            position: static;
+            transform: rotate(0);
+        }
+    }
 
 
