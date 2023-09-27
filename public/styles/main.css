@@ -28,8 +28,10 @@
     margin-top: 3rem;
   
 }
-
-
+/*
+.carousel-section {
+    margin-bottom: 3rem;
+} */
 
 
 
@@ -67,16 +69,19 @@ em {
     }
 
 
-    @media (max-width: 1028px) {
-
-        #title {
-            text-align: center;
-        }
     
-        .title-image {
-            position: static;
-            transform: rotate(0);
-        }
+    /*Characters*/
+    .crew {
+        background-color: burlywood;
     }
 
+
+    .wantedImage {
+        width: 8rem;
+        float: left;
+    } 
+
+    p {
+        
+    }
 
