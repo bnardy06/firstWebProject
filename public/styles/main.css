@@ -41,13 +41,16 @@
     text-align: center;
 }
 
-h2 {
+h2, h3  {
     color: white;
 }
+
+
 
 em {
     margin-left: 33rem;
     color: white;
+    text-align: center;
 }
 
 .carousel-item {
@@ -76,10 +79,20 @@ em {
     }
 
 
-    .wantedImage {
-        width: 8rem;
-        float: left;
-    } 
+  
+   
+   
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
     
-
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
