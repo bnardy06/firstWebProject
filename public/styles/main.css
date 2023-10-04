@@ -1,7 +1,6 @@
 
 .jumbotron {
     background-color: rgb(9, 91, 198);
-    ;
 }
   
   /* Navbar */
@@ -18,6 +17,8 @@
     font-family: "Monsterrat-Light";
 }
 
+
+
 /* carousel*/
 
 .quotes-image {
@@ -28,30 +29,20 @@
     margin-top: 3rem;
   
 }
-/*
-.carousel-section {
-    margin-bottom: 3rem;
-} */
-
-
 
 .quotes-text {
     font-size: 1rem;
     line-height: 1.5;
     text-align: center;
+    font-family: "Ubuntu";
 }
 
-h2, h3  {
+h2,h1   {
     color: white;
 }
 
 
 
-em {
-    margin-left: 33rem;
-    color: white;
-    text-align: center;
-}
 
 .carousel-item {
     height: 500px;
@@ -64,7 +55,6 @@ em {
 /*Title */
 
 .title-logo {
-        background-color: yellow;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -74,14 +64,9 @@ em {
 
     
     /*Characters*/
-    .crew {
+.crew {
         background-color: burlywood;
     }
-
-
-  
-   
-   
 
 .column {
     float: left;
@@ -89,10 +74,21 @@ em {
     padding: 5px;
     
   }
+
+  .wantedTitle {
+    background-color: black;
+    overflow: auto;
+    float: left;
+  }
   
   
   .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+
+  footer {
+    background-color: burlywood;
+    text-align: center;
   }

@@ -11,18 +11,22 @@
 
 <!--Navbar-->
 <section id="title">
+  
 <nav class="navbar navbar-expand-lg navbar-dark" >
   <div class="container">
-    <a class="navbar-brand"  href="#">OnePiece </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#oneNavbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand"  href=""> <h2>  OnePiece </h2> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#oneNavbar" aria-controls="oneNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"> </span>
   </button>
-
+  
   <div class="collapse navbar-collapse" id="oneNavbar">
     <ul class="navbar-nav ms-auto">
-        <li class="nav-item active"> <a class="nav-link" href="#"> Home</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#about"> About</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#contact"> Contact</a></li>           
+        <li class="nav-item "> 
+          <a class="nav-link" href="#"> Home</a>
+         </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#characters"> Characters</a> 
+          </li>           
     </ul>  
 </div> 
 </nav>
@@ -31,20 +35,48 @@
 <!-- carousel -->
 <section class="carousel-section" style="background: url('images/onePieceBackground.webp');"  id="onePieceCarousel">.
 
-  <div id="one-carousel" class="carousel slide" data-bs-ride="false" > <!--toggle-->
+  <div id="one-carousel" class="carousel slide" data-bs-ride="carousel" > <!--toggle-->
     
     <div class="carousel-inner">
       <div class="carousel-item active container-fluid">
         <img class="quotes-image" class="d-block w-100" src="images/luffyandshanks.png" alt="luffy">
-        <h2 class="quotes-text">"No matter how hard or impossible it is, never lose sight of your goal." </h2>
-        <em>-Monkey D. Luffy</em>
+        <h2 class="quotes-text">"No matter how hard or impossible it is, never lose sight of your goal." <br> <em>-Monkey D. Luffy</em> </h2>
+        
       </div>
       <div class="carousel-item container-fluid">
         <img class="quotes-image" class="d-block w-100" src="images/zoro.webp" alt="zoro">
-        <h2 class="quotes-text">"I don't care what society says. I've never regretted doing anything. I will survive and do what I want to "</h2>
-        <em>-Roronoa Zoro</em>
+        <h2 class="quotes-text">"I don't care what society says. I've never regretted doing anything. I will survive and do what I want to." <br> <em>-Roronoa Zoro</em> </h2>
       </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item  container-fluid">
+          <img class="quotes-image" class="d-block w-100" src="images/sanji.webp" alt="Sanji">
+          <h2 class="quotes-text">"Men who can't wipe away the tears from a women's eyes,aren't real men." <br> <em>-Sanji</em> </h2>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item  container-fluid">
+            <img class="quotes-image" class="d-block w-100" src="images/nami.webp" alt="Nami">
+            <h2 class="quotes-text">"Life is like a pencil that will run out, but will leave the beautiful writing of life." <br> <em>-Nami</em> </h2>
+          </div> 
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item  container-fluid">
+            <img class="quotes-image" class="d-block w-100" src="images/usopp.jpeg" alt="Usopp">
+            <h2 class="quotes-text">"When your friend is having a hard time. You should be there for him." <br> <em>-Usopp</em> </h2>
+          </div>
+        </div>
+
+
+            <div class="carousel-inner">
+              <div class="carousel-item  container-fluid">
+                <img class="quotes-image" class="d-block w-100" src="images/chopper.webp" alt="Nami">
+                <h2 class="quotes-text">"There are no disease in this world that can't be cured." <br> <em>-Tony Tony Chopper</em> </h2>
+              </div>
+              </div> 
     </div>
+    
 
     <button class="carousel-control-prev" type="button" data-bs-target="#one-carousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -60,7 +92,9 @@
 
 <section class="crew" id="characters">
 
-  <h1>Straw Hats Crew</h1>
+  <header>
+    <h1>Straw Hats Crew</h1>
+  </header>
   
  <div class="container-fluid">
   <div class="row">
@@ -100,18 +134,17 @@
         After fleeing the Vinsmokes as a child, he eventually entered the care of Zeff as the sous chef of the Baratie, 
         where he would remain until he met Monkey D. Luffy, who convinced him to join his crew.</p>
     </div>
+
+    <div class="column">
+      <img class="wantedImage" src="images/wantedChopper.jpeg" alt="Chopper" style="width:100%">
+      <p> Tony Tony Chopper is the doctor of the Straw Hat Pirates. Chopper is a reindeer that ate a 
+        Devil Fruit called the Human-Human Fruit (ヒトヒトの実, Hito Hito no Mi). 
+        He came from Drum Island, which makes him one of the only two members of the Straw Hat Pirate
+         Crew who were born on the Grand Line.</p>
+    </div>
+    
   </div>
  </div>
 
 </section>
-      
-  
-      
-   
-  
-
-
-
-
-
 <%- include("partials/footer.ejs") %>
